@@ -6,25 +6,25 @@ cask "tfgen" do
     end
   end
 
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
     on_arm do
-      sha256 "bdbc327075da831e57c0ac6b874d6a75d633841c347faa49bc81cbdfcc5eeb17"
+      sha256 "7406fe0dbe53eda1d2149f4850ae0a163f3b5e6e12cac5b0a87cff049550284f"
       url "https://github.com/litebitus/yaml-dsl-terraform-generator/releases/download/v#{version}/tfgen_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "907e7419a45b76ac4743c514e8a733967daddd171672c0df56db0adfa5241a07"
+      sha256 "2faf078914246026e6b6cb9b75a2b351dda15ccf63b754b36178b1bcf790c0bf"
       url "https://github.com/litebitus/yaml-dsl-terraform-generator/releases/download/v#{version}/tfgen_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "7aeb0cd06c752fe3e34f38726012ca1d661e4bccf3a7ef73bf43c1e3dfab3a2d"
+      sha256 "4a9b3facf33bfbe7d2050b58bf67bbef769af49dce55b5556dd5b885be33efed"
       url "https://github.com/litebitus/yaml-dsl-terraform-generator/releases/download/v#{version}/tfgen_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6c963c536801995fa87a6a08f41f5bc97acc4db448f851f04ca66ac7d99f841a"
+      sha256 "1868a1341819401740e9e4ff74656c77d4fb1229f18d2bc57facf73a742f283f"
       url "https://github.com/litebitus/yaml-dsl-terraform-generator/releases/download/v#{version}/tfgen_#{version}_linux_amd64.tar.gz"
     end
   end
