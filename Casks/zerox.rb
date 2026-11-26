@@ -6,25 +6,25 @@ cask "zerox" do
     end
   end
 
-  version "0.0.1"
+  version "0.0.2"
 
   on_macos do
     on_arm do
-      sha256 "4ff04c9dc2164c0c3d7adf072ea0137969edf4f0ce235d80012f0ea13ea926df"
+      sha256 "89a700b58bb91ba6f806ca9cfdf75e476858b65f39f40df492d9b3d4009e3c71"
       url "https://github.com/litebitus/zerox/releases/download/v#{version}/zerox_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "eb1cbfecd9ff2ca7e394a483afbcb747dc69b80539d8cd57e6500b48d1daf764"
+      sha256 "00f4ab4315b05b4a063726a78497b3b2185dd8caf3adae1f4af306aaf84114dd"
       url "https://github.com/litebitus/zerox/releases/download/v#{version}/zerox_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "3a757bada20046d74b6e012e9a82a7c69c8de555c37472397556e892cdbde1a4"
+      sha256 "e900c803fc328bc08a81d58ceed1e5d42b35ac1b5470feae6be9d5ccc49cf48f"
       url "https://github.com/litebitus/zerox/releases/download/v#{version}/zerox_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "88d8a90094879a0a6f9c35515422d10985e4d9d0ca325b45a0abb3aa461c9235"
+      sha256 "49e161f4b0f3e73e9edff03226c6e9eb0c3f9fcdecbf924501efab1b3efa28aa"
       url "https://github.com/litebitus/zerox/releases/download/v#{version}/zerox_#{version}_linux_amd64.tar.gz"
     end
   end
